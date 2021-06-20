@@ -2,7 +2,7 @@ function isPalindrome(str){
     str = str.toLowerCase();
     str = str.split(' ').join('');
     console.log(str)
-    let left = 0;
+        let left = 0;
 	let right = str.length - 1;
 	let leftChar;
 	let rightChar;
